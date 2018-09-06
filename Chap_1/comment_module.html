@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>评论系统</title>
+</head>
+<style>
+    #title_text {
+        font-size: 18pt;
+        font-family: "Adobe Caslon Pro"
+    }
+
+    #total_comment_count {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .red_divide_line {
+        background: darkred;
+        width: 100%;
+        height: 2px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .comment_item {
+        list-style-type: none;
+    }
+
+    .comment_area {
+        margin-bottom: 10px;
+    }
+
+    .input_box {
+        width: 90%;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .avatar {
+        vertical-align: top;
+    }
+
+    .bottom_area {
+        margin-left: 70px;
+        width: 90%;
+        position: absolute;
+    }
+
+    .text_count {
+        color: grey;
+    }
+
+    .submit_btn {
+        padding: 5px 10px 5px 10px;
+        background: royalblue;
+        float: right;
+        font-size: 10pt;
+        color: #ffffff;
+    }
+
+    .gray_divide_line {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        background: #C7C7C7;
+    }
+
+    .nickname {
+        margin-left: 10px;
+        color: dodgerblue;
+        font-size: 10pt;
+    }
+
+    .comment_content {
+        font-size: 11pt;
+    }
+
+    .comment_time {
+        color: grey;
+        font-size: 10pt;
+        float: right;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        width: 60%;
+        position: relative;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+</style>
+<body>
+
+<div id="comment_title">
+    <span id="title_text">评论</span>
+
+    <span id="total_comment_count">共2条评论</span>
+
+    <hr class="red_divide_line"/>
+</div>
+
+<ul>
+    <li class="comment_item">
+        <div class="comment_area">
+            <a href="https://course.study.163.com/400000002780004"><img class="avatar" src="img/avatar1.png"></a>
+            <textarea class="input_box" placeholder="评论"></textarea>
+        </div>
+        <div class="bottom_area">
+            <span class="text_count">130/140</span>
+            <button class="submit_btn">评论</button>
+        </div>
+
+        <hr class="gray_divide_line" style="margin-top: 50px"/>
+    </li>
+
+    <li class="comment_item">
+        <div class="comment">
+            <a href="https://course.study.163.com/400000002780004"><img class="avatar" src="img/avatar2.png"></a>
+            <a href="https://course.study.163.com/400000002780004"><span class="nickname">葵葵</span></a>
+            <span class="comment_content">: 很好听哈~</span>
+            <span class="comment_time">28秒前</span>
+        </div>
+        <hr class="gray_divide_line"/>
+    </li>
+
+    <li class="comment_item">
+        <div class="comment">
+            <a href="https://course.study.163.com/400000002780004"><img class="avatar" src="img/avatar3.png"></a>
+            <a href="https://course.study.163.com/400000002780004"><span class="nickname">雅歌</span></a>
+            <span class="comment_content">: 很适合睡觉的时候试试看哈~</span>
+            <span class="comment_time">6月17日</span>
+        </div>
+        <hr class="gray_divide_line"/>
+    </li>
+
+    <li class="comment_item">
+        <div class="comment">
+            <a href="https://course.study.163.com/400000002780004"><img class="avatar" src="img/avatar4.png"></a>
+            <a href="https://course.study.163.com/400000002780004"><span class="nickname">海港</span></a>
+            <span class="comment_content">: 很适合睡觉的时候听~</span>
+            <span class="comment_time">2012-05-29</span>
+        </div>
+    </li>
+</ul>
+
+</body>
+
+</html>
