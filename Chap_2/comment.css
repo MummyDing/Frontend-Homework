@@ -1,0 +1,79 @@
+.f-clear {
+}
+
+.m-header {
+    border-bottom: darkred solid;
+}
+
+.m-header span {
+    margin-left: 20px;
+}
+
+.m-reply {
+    margin-top: 20px;
+    height: 150px;
+}
+
+.submit {
+    margin-left: 55px;
+}
+
+.submit button {
+    float: right;
+    padding: 5px 10px 5px 10px;
+    font-size: 10pt;
+    background: blue;
+    color: #ffffff;
+}
+
+h2 {
+    display: inline;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-top: #C7C7C7 solid 1px;
+    padding-top: 20px;
+    min-height: 80px;
+}
+
+.submit > span {
+    font-size: 10pt;
+    margin-left: 10px;
+    color: gray;
+}
+
+textarea {
+    height: 100px;
+    width: 90%;
+}
+
+li > div > div {
+    text-align: right;
+}
+
+li > div > p {
+    display: inline;
+}
+
+time {
+    margin-bottom: 20px;
+    font-size: 11pt;
+    color: gray;
+}
+
+body {
+    margin: auto;
+    width: 60%;
+}
+
