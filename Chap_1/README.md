@@ -1,1 +1,1 @@
-<img src="/Chap_1.png"/>
+<img src="./Chap_1.png"/>
